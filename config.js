@@ -1,36 +1,29 @@
 window.Config = {
 
   // 显示标题
-  SiteName: 'Public Status',
+  SiteName: 'Gestar Cloud 服务状态',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'm784488775-dd1ad84b209c05f8e185c33e',
-    'm784490063-7b5da437e7f1e0d67613714d',
-    'm784497419-de55aa09902ccb3ab22d548a',
-    'm784496436-71a4bf7b1e3bdf7756be131b',
+    'm794281947-03244686c99aa0892133425d',
+    'm794275245-7196164882c223cd8937f9e3',
+    'm794275259-eb82fea71c2aa730aad3121e',
+    'm794275251-d257a0e4dc8d5f4c802f488a',
+    'm794275254-d1a347d84c1f633612cd8dd0'
   ],
 
   // 日志天数
-  CountDays: 90,
+  CountDays: 30,
 
   // 是否显示检测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // 导航栏菜单
   Navi: [
     {
-      text: 'Homepage',
-      url: 'https://status.org.cn/'
-    },
-    {
-      text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
-    },
-    {
-      text: 'Blog',
-      url: 'https://abo.xyz/'
-    },
-  ],
+      text: '主页',
+      url: 'https://www.gestar.cloud/'
+    }
+  ]
 };
